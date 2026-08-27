@@ -8,7 +8,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-python hid_xbox_mapper.py
+python hid_mapper.py
 if errorlevel 1 (
     echo.
     echo Программа завершилась с ошибкой ^(текст выше^).
